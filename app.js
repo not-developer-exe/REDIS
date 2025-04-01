@@ -29,7 +29,7 @@ redis.on('error', (err) => {
 });
 
 app.get('/', async (req, res) => {
-    res.send('Hello World!');
+    res.send('Hello World! This is a simple Node.js app with MongoDB and Redis.');
 });
 
 app.listen(port, () => {
